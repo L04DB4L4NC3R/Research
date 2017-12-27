@@ -1,0 +1,14 @@
+csv
+smtplib
+email.mime.multipart
+email.mime.text
+sys
+os
+re
+lxml
+urllib.request
+bs4
+flask
+cs50
+passlib.apps
+datetime
