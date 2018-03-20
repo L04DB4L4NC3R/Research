@@ -1,0 +1,55 @@
+{% extends "index.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block body %}
+<style>
+
+td
+{
+    font-size:22px;
+}
+
+th
+{
+    font-size:25px;
+
+}
+</style>
+
+
+<div style="background-color:LightGrey;width:100%;height:750px">
+<div class="container">
+  <h2 style="font-size:70px;">Your History</h2>
+  <br>
+  <h3>See what you have searched so far</h3>
+  <br><br><br>
+
+      <table style="width:100%;height:350px" class="table table-hover">
+    <thead>
+      <tr>
+        <th><b>Serial number</b></th>
+        <th><b>Query searched</b></th>
+        <th><b>Time of searching</b></th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for event in h %}
+
+          <tr>
+
+            <td>{{loop.index}}</td>
+            <td>{{event.query}}</td>
+            <td>{{event.time}}</td>
+            <td> <a href="{{ url_for('rmv',val= event.query) }}"> Remove </a> </td>
+            </a>
+          </tr>
+
+          {% endfor %}
+     </tbody>
+     </table>
+
+</div>
+{% endblock %}
