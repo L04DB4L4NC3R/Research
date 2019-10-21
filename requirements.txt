@@ -33,7 +33,7 @@ termcolor==1.1.0
 urllib3==1.13.1
 vboxapi==1.0
 webencodings==0.5.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 apturl==0.5.2
 beautifulsoup4==4.4.1
 Brlapi==0.6.4
@@ -78,6 +78,6 @@ ufw==0.35
 unattended-upgrades==0.1
 urllib3==1.13.1
 usb-creator==0.3.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 xdiagnose==3.8.4.1
 xkit==0.0.0
