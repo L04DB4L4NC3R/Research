@@ -3,7 +3,7 @@ boto==2.38.0
 bs4==0.0.1
 chardet==2.3.0
 click==6.7
-cryptography==1.2.3
+cryptography==3.2
 cs50==2.3.3
 duplicity==0.7.6
 enum34==1.1.2
