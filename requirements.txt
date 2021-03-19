@@ -13,7 +13,7 @@ idna==2.0
 ipaddress==1.0.16
 IPy==0.83
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 keen==0.5.1
 lockfile==0.12.2
 lxml==4.1.1
@@ -46,7 +46,7 @@ defer==1.0.6
 Flask==0.12.2
 html5lib==0.999
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 kazam==1.4.5
 language-selector==0.1
 louis==2.6.4
